@@ -11,7 +11,7 @@ import json
 import time
 import sys
 
-URL = os.environ['IICS_POD_URL']
+URL = os.environ['UAT_IICS_POD_URL']
 UAT_SESSION_ID = os.environ['uat_sessionId']
 UAT_COMMIT_HASH = os.environ['UAT_COMMIT_HASH']
 
